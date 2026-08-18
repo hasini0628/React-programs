@@ -7,3 +7,11 @@ function App(){
     setCount(count + 1);
     setClicks(clicks +1);
   }
+   function decrease() {
+    setCount(count - 1); 
+    setDecreaseClicks(decreaseClicks-1);  
+  }
+  function reset() {
+    setCount(0);
+    setDecreaseClicks(0);
+  }
