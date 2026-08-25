@@ -15,3 +15,14 @@ function App(){
     setCount(0);
     setDecreaseClicks(0);
   }
+let message;
+  if (count > 0){
+    message="Positive number";
+  }
+  else if (count < 0){
+    message="Negative number";
+  }
+  else if (count === 0){
+    message="Count is zero";
+  }
+  
