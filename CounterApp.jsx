@@ -35,3 +35,14 @@ let message;
       <button onClick={decrease}>
         Decrease
       </button>
+      <button onClick={reset}>
+        Reset
+      </button>
+      <p>Message: {message}</p>
+      <p>⭐You clicked Increase {clicks} times</p>
+      <p>⭐You clicked Decrease {decreaseClicks} times</p>
+    </div>
+    
+  );
+}
+export default App;
