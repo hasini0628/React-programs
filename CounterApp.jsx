@@ -25,4 +25,13 @@ let message;
   else if (count === 0){
     message="Count is zero";
   }
-  
+   return (
+    <div>
+      <h1>Counter App</h1>
+      <h1>{count}</h1>
+      <button onClick={increase}>
+        Increase
+      </button>
+      <button onClick={decrease}>
+        Decrease
+      </button>
