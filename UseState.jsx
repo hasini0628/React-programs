@@ -5,3 +5,6 @@ function App(){
   function nameChange(event){
     setName(event.target.value);
   }
+   function ageChange(event){
+    setAge(event.target.value);
+  }
