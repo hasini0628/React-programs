@@ -14,3 +14,9 @@ function App(){
       <h1>Name:</h1>
       <input type="text" value={name}onChange={nameChange}/>
       <h1>Age</h1>
+       <input type="number" value={age}onChange={ageChange}/>
+      <p>Hello {name}</p>
+      <p>Your age is {age}</p>
+    </div>
+  )};
+export default App;
