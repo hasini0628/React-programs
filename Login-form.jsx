@@ -17,3 +17,17 @@ function App(){
       setMessage("Login successfull")
     }
 }
+return(
+    <div>
+      <h1>Login Form</h1>
+      <h1>Email:</h1>
+      <input type="email" value={email} onChange={emailChange}/>
+      <h1>Password</h1>
+      <input type="password" value={password} onChange={passwordChange}/>
+      <p>Email: {email}</p>
+      <p>Password: {password}</p>
+      <button onClick={login}>Login</button>
+      <p>{message}</p>
+    </div>
+  )};
+export default App;
